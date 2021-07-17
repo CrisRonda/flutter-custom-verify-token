@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
           actions: [
             IconButton(
                 onPressed: () {
-                    GoogleSigninService.signout();
-
+                  GoogleSigninService.signout();
                 },
                 icon: Icon(FontAwesomeIcons.signOutAlt))
           ],
